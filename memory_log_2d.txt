@@ -1,0 +1,19 @@
+--- 2D int array: Y-dimension stride access ---
+[int 2D Y-stride] Size:    65536 Stride:      4 Time:       0.03 ns
+[int 2D Y-stride] Size:    65536 Stride:      8 Time:       0.11 ns
+[int 2D Y-stride] Size:    65536 Stride:     12 Time:      -0.22 ns
+[int 2D Y-stride] Size:    65536 Stride:     16 Time:       0.12 ns
+[int 2D Y-stride] Size:    65536 Stride:     24 Time:      -0.29 ns
+[int 2D Y-stride] Size:    65536 Stride:     32 Time:       0.22 ns
+[int 2D Y-stride] Size:    65536 Stride:     48 Time:      -1.36 ns
+[int 2D Y-stride] Size:    65536 Stride:     64 Time:       3.02 ns
+[int 2D Y-stride] Size:    65536 Stride:     96 Time:       2.73 ns
+[int 2D Y-stride] Size:    65536 Stride:    128 Time:      89.46 ns
+[int 2D Y-stride] Size:    65536 Stride:    192 Time:      12.92 ns
+[int 2D Y-stride] Size:    65536 Stride:    256 Time:     406.84 ns
+[int 2D Y-stride] Size:    65536 Stride:    384 Time:      39.21 ns
+[int 2D Y-stride] Size:    65536 Stride:    512 Time:      55.55 ns
+[int 2D Y-stride] Size:    65536 Stride:    768 Time:      97.22 ns
+[int 2D Y-stride] Size:    65536 Stride:   1024 Time:     143.06 ns
+[int 2D Y-stride] Size:    65536 Stride:   1536 Time:     235.42 ns
+[int 2D Y-stride] Size:    65536 Stride:   2048 Time:     150.32 ns
