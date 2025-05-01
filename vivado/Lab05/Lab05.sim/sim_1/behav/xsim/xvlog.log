@@ -1,0 +1,25 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/01_riscv_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module riscv_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/04_instr_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instr_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/05_register_file.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register_file
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/07_alu_op.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_control
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/branch_flush_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_control_flush
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/branch_prediction.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module branch_prediction_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/control_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module control_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/forwarding_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module forwarding_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/hazard_dect_unit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hazard_detection_unit
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/top_riscv_main.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_pipelined_riscv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/xpm_dpram_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xpm_dpram_top
+INFO: [VRFC 10-2458] undeclared symbol clkb, assumed default net type wire [C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/xpm_dpram_top.v:66]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/top_risc_main_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top_pipelined_riscv

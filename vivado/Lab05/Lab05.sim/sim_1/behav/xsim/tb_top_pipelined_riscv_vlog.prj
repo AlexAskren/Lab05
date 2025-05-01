@@ -1,0 +1,20 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../../Downloads/Lab04-main/Lab04-main/Lab05/01_riscv_ALU.v" \
+"../../../../../../Downloads/Lab04-main/Lab04-main/Lab05/04_instr_mem.v" \
+"../../../../../../Downloads/Lab04-main/Lab04-main/Lab05/05_register_file.v" \
+"../../../../../../Downloads/Lab04-main/Lab04-main/Lab05/07_alu_op.v" \
+"../../../../../../Downloads/Lab04-main/Lab04-main/Lab05/branch_flush_unit.v" \
+"../../../../../../Downloads/Lab04-main/Lab04-main/Lab05/branch_prediction.v" \
+"../../../../../../Downloads/Lab04-main/Lab04-main/Lab05/control_unit.v" \
+"../../../../../../Downloads/Lab04-main/Lab04-main/Lab05/forwarding_unit.v" \
+"../../../../../../Downloads/Lab04-main/Lab04-main/Lab05/hazard_dect_unit.v" \
+"../../../../../../Downloads/Lab04-main/Lab04-main/Lab05/top_riscv_main.v" \
+"../../../../../../Downloads/Lab04-main/Lab04-main/Lab05/xpm_dpram_top.v" \
+"../../../../../../Downloads/Lab04-main/Lab04-main/Lab05/top_risc_main_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

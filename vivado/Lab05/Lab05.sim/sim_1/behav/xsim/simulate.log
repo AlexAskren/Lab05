@@ -1,0 +1,128 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Info: [XPM_MEMORY 20-1] MEMORY_PRIMITIVE (0) instructs Vivado Synthesis to choose the memory primitive type. Depending on their values, other XPM_MEMORY parameters may preclude the choice of certain memory primitive types. Review XPM_MEMORY documentation and parameter values to understand any limitations, or set MEMORY_PRIMITIVE to a different value. tb_top_pipelined_riscv.dut.DMEM.xpm_memory_tdpram_inst.xpm_memory_base_inst.config_drc
+Time: 1 ps  Iteration: 0  Process: /tb_top_pipelined_riscv/dut/DMEM/xpm_memory_tdpram_inst/xpm_memory_base_inst/Initial294_3  Scope: tb_top_pipelined_riscv.dut.DMEM.xpm_memory_tdpram_inst.xpm_memory_base_inst.config_drc  File: /wrk/ci/prod/2020.2/sw/continuous/733/packages/customer/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 488
+Info: [XPM_MEMORY 20-2] MEMORY_INIT_FILE (none), MEMORY_INIT_PARAM together specify no memory initialization. Initial memory contents will be all 0's. tb_top_pipelined_riscv.dut.DMEM.xpm_memory_tdpram_inst.xpm_memory_base_inst.config_drc 48
+Time: 1 ps  Iteration: 0  Process: /tb_top_pipelined_riscv/dut/DMEM/xpm_memory_tdpram_inst/xpm_memory_base_inst/Initial294_3  Scope: tb_top_pipelined_riscv.dut.DMEM.xpm_memory_tdpram_inst.xpm_memory_base_inst.config_drc  File: /wrk/ci/prod/2020.2/sw/continuous/733/packages/customer/vivado/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv Line: 490
+[IMEM] PC=0x00000000 => INSTR=0x80ff0337
+[IMEM] PC=0x00000004 => INSTR=0x00800293
+[IMEM] PC=0x00000008 => INSTR=0x00230393
+[IMEM] PC=0x0000000c => INSTR=0x00628433
+[IMEM] PC=0x00000010 => INSTR=0x405384b3
+[REGFILE] Write: x6 = 0x80ff0000
+[IMEM] PC=0x00000014 => INSTR=0x02538433
+[REGFILE] Write: x5 = 0x00000008
+[IMEM] PC=0x00000018 => INSTR=0x027394b3
+[REGFILE] Write: x7 = 0x80ff0002
+[IMEM] PC=0x0000001c => INSTR=0x0273a4b3
+[REGFILE] Write: x8 = 0x80ff0008
+[IMEM] PC=0x00000020 => INSTR=0x0273b4b3
+[REGFILE] Write: x9 = 0x80fefffa
+[IMEM] PC=0x00000024 => INSTR=0x00534433
+[REGFILE] Write: x8 = 0x80ff000a
+[IMEM] PC=0x00000028 => INSTR=0x00f2c493
+[REGFILE] Write: x9 = 0x03fc0008
+[IMEM] PC=0x0000002c => INSTR=0x00536433
+[REGFILE] Write: x9 = 0x00000000
+[IMEM] PC=0x00000030 => INSTR=0x00f2e493
+[IMEM] PC=0x00000034 => INSTR=0x00537433
+[REGFILE] Write: x8 = 0x80ff0008
+[IMEM] PC=0x00000038 => INSTR=0x00c2f493
+[REGFILE] Write: x9 = 0x00000007
+[IMEM] PC=0x0000003c => INSTR=0x00931533
+[REGFILE] Write: x8 = 0x80ff0008
+[IMEM] PC=0x00000040 => INSTR=0x00431593
+[REGFILE] Write: x9 = 0x0000000f
+[IMEM] PC=0x00000044 => INSTR=0x00935533
+[REGFILE] Write: x8 = 0x00000000
+[IMEM] PC=0x00000048 => INSTR=0x00435593
+[REGFILE] Write: x9 = 0x00000008
+[IMEM] PC=0x0000004c => INSTR=0x40935533
+[REGFILE] Write: x10 = 0xff000000
+[IMEM] PC=0x00000050 => INSTR=0x40435593
+[REGFILE] Write: x11 = 0x0ff00000
+[IMEM] PC=0x00000054 => INSTR=0x00532633
+[REGFILE] Write: x10 = 0x0080ff00
+[IMEM] PC=0x00000058 => INSTR=0x00c2a693
+[REGFILE] Write: x11 = 0x080ff000
+[IMEM] PC=0x0000005c => INSTR=0x00533633
+[REGFILE] Write: x10 = 0xff80ff00
+[IMEM] PC=0x00000060 => INSTR=0x0322b693
+[REGFILE] Write: x11 = 0xf80ff000
+[IMEM] PC=0x00000064 => INSTR=0x00528463
+[REGFILE] Write: x12 = 0x00000001
+[IMEM] PC=0x00000068 => INSTR=0x00100093
+[REGFILE] Write: x13 = 0x00000001
+[IMEM] PC=0x0000006c => INSTR=0x00629663
+[REGFILE] Write: x12 = 0x00000000
+[IMEM] PC=0x00000070 => INSTR=0x00200093
+[REGFILE] Write: x13 = 0x00000001
+[IMEM] PC=0x00000074 => INSTR=0x00534463
+[IMEM] PC=0x00000078 => INSTR=0xfe537ee3
+[IMEM] PC=0x00000000 => INSTR=0x80ff0337
+[IMEM] PC=0x00000080 => INSTR=0xfe535ee3
+[IMEM] Invalid PC=0xfffffffc => NOP inserted
+[IMEM] Invalid PC=0x80ff0080 => NOP inserted
+[IMEM] Invalid PC=0x80ff0084 => NOP inserted
+[IMEM] Invalid PC=0x80ff0088 => NOP inserted
+[IMEM] Invalid PC=0x80ff008c => NOP inserted
+[IMEM] Invalid PC=0x80ff0090 => NOP inserted
+[IMEM] Invalid PC=0x80ff0094 => NOP inserted
+[IMEM] Invalid PC=0x80ff0098 => NOP inserted
+[IMEM] Invalid PC=0x80ff009c => NOP inserted
+[IMEM] Invalid PC=0x80ff00a0 => NOP inserted
+[IMEM] Invalid PC=0x80ff00a4 => NOP inserted
+[IMEM] Invalid PC=0x80ff00a8 => NOP inserted
+[IMEM] Invalid PC=0x80ff00ac => NOP inserted
+[IMEM] Invalid PC=0x80ff00b0 => NOP inserted
+[IMEM] Invalid PC=0x80ff00b4 => NOP inserted
+[IMEM] Invalid PC=0x80ff00b8 => NOP inserted
+[IMEM] Invalid PC=0x80ff00bc => NOP inserted
+[IMEM] Invalid PC=0x80ff00c0 => NOP inserted
+[IMEM] Invalid PC=0x80ff00c4 => NOP inserted
+[IMEM] Invalid PC=0x80ff00c8 => NOP inserted
+[IMEM] Invalid PC=0x80ff00cc => NOP inserted
+[IMEM] Invalid PC=0x80ff00d0 => NOP inserted
+[IMEM] Invalid PC=0x80ff00d4 => NOP inserted
+[IMEM] Invalid PC=0x80ff00d8 => NOP inserted
+[IMEM] Invalid PC=0x80ff00dc => NOP inserted
+[IMEM] Invalid PC=0x80ff00e0 => NOP inserted
+[IMEM] Invalid PC=0x80ff00e4 => NOP inserted
+[IMEM] Invalid PC=0x80ff00e8 => NOP inserted
+[IMEM] Invalid PC=0x80ff00ec => NOP inserted
+[IMEM] Invalid PC=0x80ff00f0 => NOP inserted
+[IMEM] Invalid PC=0x80ff00f4 => NOP inserted
+[IMEM] Invalid PC=0x80ff00f8 => NOP inserted
+[IMEM] Invalid PC=0x80ff00fc => NOP inserted
+[IMEM] Invalid PC=0x80ff0100 => NOP inserted
+[IMEM] Invalid PC=0x80ff0104 => NOP inserted
+[IMEM] Invalid PC=0x80ff0108 => NOP inserted
+[IMEM] Invalid PC=0x80ff010c => NOP inserted
+[IMEM] Invalid PC=0x80ff0110 => NOP inserted
+[IMEM] Invalid PC=0x80ff0114 => NOP inserted
+[IMEM] Invalid PC=0x80ff0118 => NOP inserted
+[IMEM] Invalid PC=0x80ff011c => NOP inserted
+[IMEM] Invalid PC=0x80ff0120 => NOP inserted
+[IMEM] Invalid PC=0x80ff0124 => NOP inserted
+[IMEM] Invalid PC=0x80ff0128 => NOP inserted
+[IMEM] Invalid PC=0x80ff012c => NOP inserted
+[IMEM] Invalid PC=0x80ff0130 => NOP inserted
+[IMEM] Invalid PC=0x80ff0134 => NOP inserted
+[IMEM] Invalid PC=0x80ff0138 => NOP inserted
+[IMEM] Invalid PC=0x80ff013c => NOP inserted
+[IMEM] Invalid PC=0x80ff0140 => NOP inserted
+[IMEM] Invalid PC=0x80ff0144 => NOP inserted
+[IMEM] Invalid PC=0x80ff0148 => NOP inserted
+[IMEM] Invalid PC=0x80ff014c => NOP inserted
+[IMEM] Invalid PC=0x80ff0150 => NOP inserted
+[IMEM] Invalid PC=0x80ff0154 => NOP inserted
+[IMEM] Invalid PC=0x80ff0158 => NOP inserted
+[IMEM] Invalid PC=0x80ff015c => NOP inserted
+[IMEM] Invalid PC=0x80ff0160 => NOP inserted
+[IMEM] Invalid PC=0x80ff0164 => NOP inserted
+[IMEM] Invalid PC=0x80ff0168 => NOP inserted
+[IMEM] Invalid PC=0x80ff016c => NOP inserted
+[IMEM] Invalid PC=0x80ff0170 => NOP inserted
+[IMEM] Invalid PC=0x80ff0174 => NOP inserted
+[IMEM] Invalid PC=0x80ff0178 => NOP inserted
+[IMEM] Invalid PC=0x80ff017c => NOP inserted

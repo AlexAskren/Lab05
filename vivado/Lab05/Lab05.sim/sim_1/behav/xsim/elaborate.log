@@ -1,0 +1,51 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto ea2a9fdafce940b6824be61bac5cd0d0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot tb_top_pipelined_riscv_behav xil_defaultlib.tb_top_pipelined_riscv xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-2861] module 'xpm_memory_tdpram' does not have a parameter named ECC_BIT_RANGE [C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/xpm_dpram_top.v:39]
+WARNING: [VRFC 10-2861] module 'xpm_memory_tdpram' does not have a parameter named ECC_TYPE [C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/xpm_dpram_top.v:41]
+WARNING: [VRFC 10-2861] module 'xpm_memory_tdpram' does not have a parameter named IGNORE_INIT_SYNTH [C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/xpm_dpram_top.v:42]
+WARNING: [VRFC 10-2861] module 'xpm_memory_tdpram' does not have a parameter named RAM_DECOMP [C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/xpm_dpram_top.v:49]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 8 for port 'addra' [C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/top_riscv_main.v:120]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/top_riscv_main.v" Line 1. Module top_pipelined_riscv doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/forwarding_unit.v" Line 1. Module forwarding_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/07_alu_op.v" Line 1. Module alu_control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/01_riscv_ALU.v" Line 3. Module riscv_ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/04_instr_mem.v" Line 1. Module instr_mem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/control_unit.v" Line 1. Module control_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/05_register_file.v" Line 2. Module register_file_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/hazard_dect_unit.v" Line 2. Module hazard_detection_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/branch_prediction.v" Line 1. Module branch_prediction_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/branch_flush_unit.v" Line 1. Module branch_control_flush doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/top_riscv_main.v" Line 1. Module top_pipelined_riscv doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/forwarding_unit.v" Line 1. Module forwarding_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/07_alu_op.v" Line 1. Module alu_control doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/01_riscv_ALU.v" Line 3. Module riscv_ALU doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/04_instr_mem.v" Line 1. Module instr_mem doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/control_unit.v" Line 1. Module control_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/05_register_file.v" Line 2. Module register_file_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/hazard_dect_unit.v" Line 2. Module hazard_detection_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/branch_prediction.v" Line 1. Module branch_prediction_unit doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/branch_flush_unit.v" Line 1. Module branch_control_flush doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.forwarding_unit
+Compiling module xil_defaultlib.alu_control
+Compiling module xil_defaultlib.riscv_ALU
+Compiling module xpm.xpm_memory_base(MEMORY_SIZE=8192...
+Compiling module xpm.xpm_memory_tdpram(MEMORY_SIZE=81...
+Compiling module xil_defaultlib.xpm_dpram_top
+Compiling module xil_defaultlib.instr_mem
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.register_file_default
+Compiling module xil_defaultlib.hazard_detection_unit
+Compiling module xil_defaultlib.branch_prediction_unit
+Compiling module xil_defaultlib.branch_control_flush
+Compiling module xil_defaultlib.top_pipelined_riscv
+Compiling module xil_defaultlib.tb_top_pipelined_riscv
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_pipelined_riscv_behav

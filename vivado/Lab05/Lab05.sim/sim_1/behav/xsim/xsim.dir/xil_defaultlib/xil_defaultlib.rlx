@@ -1,0 +1,18 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/askrap01/Documents/Lab05/Lab05.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/01_riscv_ALU.v,1744991296,verilog,,C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/04_instr_mem.v,,riscv_ALU,,,,,,,,
+C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/04_instr_mem.v,1744991664,verilog,,C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/05_register_file.v,,instr_mem,,,,,,,,
+C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/05_register_file.v,1744991296,verilog,,C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/07_alu_op.v,,register_file,,,,,,,,
+C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/06_data_mem.v,1744991296,verilog,,C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/07_alu_op.v,,mem_data,,,,,,,,
+C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/07_alu_op.v,1744991296,verilog,,C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/branch_flush_unit.v,,alu_control,,,,,,,,
+C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/branch_flush_unit.v,1744991296,verilog,,C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/branch_prediction.v,,branch_control_flush,,,,,,,,
+C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/branch_prediction.v,1744991296,verilog,,C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/control_unit.v,,branch_prediction_unit,,,,,,,,
+C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/control_unit.v,1744991296,verilog,,C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/forwarding_unit.v,,control_unit,,,,,,,,
+C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/forwarding_unit.v,1744991296,verilog,,C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/hazard_dect_unit.v,,forwarding_unit,,,,,,,,
+C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/hazard_dect_unit.v,1744991296,verilog,,C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/top_riscv_main.v,,hazard_detection_unit,,,,,,,,
+C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/top_risc_main_tb.v,1744991296,verilog,,,,tb_top_pipelined_riscv,,,,,,,,
+C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/top_riscv_main.v,1744992096,verilog,,C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/xpm_dpram_top.v,,top_pipelined_riscv,,,,,,,,
+C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/xpm_dpram_top.v,1744992437,verilog,,C:/Users/askrap01/Downloads/Lab04-main/Lab04-main/Lab05/top_risc_main_tb.v,,xpm_dpram_top,,,,,,,,
