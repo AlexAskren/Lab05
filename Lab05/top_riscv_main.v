@@ -102,14 +102,31 @@ module top_pipelined_riscv #(
     );
 
     wire [DATA_WIDTH-1:0] DataMemOut;
-    mem_data #(.MEM_DEPTH(MEM_DEPTH)) DMEM (
+    /*mem_data #(.MEM_DEPTH(MEM_DEPTH)) DMEM (
         .clk(clk), .reset(reset),
         .rd_en(EX_MEM_MemRead),
         .wr_en(EX_MEM_MemWrite),
         .addr(EX_MEM_ALU_result),
         .din(EX_MEM_RD2),
         .dout(DataMemOut)
-    );
+    );*/
+
+	xpm_dpram_top DMEM (
+		.clk(clk),
+		.rst(reset),
+		
+		// Port A connections (used for Data Memory access)
+		.we(EX_MEM_MemWrite),
+		.addra(EX_MEM_ALU_result),
+		.dina(EX_MEM_RD2),
+		.douta(DataMemOut),
+		
+		// Port B connections 
+		.dinb(),
+		.doutb(),
+		.addrb()
+	);
+
 
     instr_mem #(.MEM_DEPTH(MEM_DEPTH)) IMEM (
         .clk(clk), .reset(reset),
